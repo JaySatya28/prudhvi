@@ -1,0 +1,215 @@
+Here's the complete deck content, slide by slide, with diagrams and mocks embedded where they belong.
+Slide 1 — Title
+Agentic Workflows for Residential Property DevelopersWhere AI agents take real work off a developer's plate — and where they'd pay for it [Your name] · PM Case Study
+Slide 2 — The brief, restated
+Founding PM at an AI-agents startup for residential developers
+Task: find the top 2 problems a developer would pay to solve, design an agentic solution for each
+Show: the problems + why, how the agent works, the experience, how it makes money
+Slide 3 — Market & assumptions
+Market: India, mid-size residential developer, tier-1/tier-2 city
+Profile: 3–5 live projects/year, 200–500 units each, construction-linked payment plans, sells direct to individual buyers
+Assumptions:
+Developer already runs a basic CRM and an ERP/project-tracking system
+Agents plug into existing systems, don't replace them
+Primary buyer comms channel is WhatsApp/voice, not email
+Slide 4 — How I picked the two problems
+Mapped the buyer lifecycle: lead → sale → construction → possession → after-sale
+Looked for where work is high-volume, repetitive, and document/text/voice-based (agent sweet spot — no physical-world grounding needed)
+Filtered for problems that map to a number the developer already tracks (so ROI is obvious, not invented)
+Landed on two bookend problems: pre-sale acquisition and post-sale ops/collections
+Slide 5 — Problem 1: Lead response & qualification (pre-sale)
+Developers pay ₹500–2,000 per lead via portals/ads
+Sales teams typically respond in hours to days → leads go cold before a human calls
+Industry conversion from lead to site-visit is often in the low single digits
+This is the single most measurable money leak in the sales funnel
+Slide 6 — Problem 1: How the agent works (flow)
+┌─────────────────────┐
+│ Lead enters system   │  (portal form / ad click / walk-in / broker referral)
+└──────────┬───────────┘
+           │  <15 sec
+           ▼
+┌─────────────────────┐
+│ Agent sends first     │  WhatsApp/voice, project info + FAQ answers
+│ response               │
+└──────────┬───────────┘
+           ▼
+┌─────────────────────┐
+│ Agent qualifies        │  budget, unit type, timeline, loan status
+└──────────┬───────────┘
+           ▼
+     ┌─────┴─────┐
+     ▼           ▼
+┌─────────┐  ┌───────────────┐
+│ Ready to │  │ Exploring /    │
+│ visit    │  │ undecided      │
+└────┬────┘  └───────┬───────┘
+     ▼               ▼
+┌─────────┐  ┌───────────────┐
+│ Agent     │  │ Agent nurtures │
+│ books     │  │ (drip content,  │
+│ site      │  │ re-engage in    │
+│ visit     │  │ 2-4 weeks)      │
+└────┬────┘  └───────┬───────┘
+     ▼               │
+┌─────────────────┐   │
+│ Hand off to       │◄──┘ (when signals turn hot)
+│ human closer       │
+│ with structured    │
+│ brief               │
+└─────────────────┘
+Slide 7 — Problem 1: Buyer experience
+[Lead submits interest form on 99acres for "Project Meadow View"]
+Agent (WhatsApp, 11 sec later):
+Hi Rohan! Thanks for your interest in Meadow View, Whitefield.
+It's a 2/3 BHK project, possession Dec 2027, RERA: PRM/KA/.../1234.
+Quick q so I can help faster — are you looking at 2BHK or 3BHK?
+Rohan: 3bhk, around 1.2cr budget
+Agent:
+Got it. Our 3BHK units start at ₹1.15Cr (1450 sq ft).
+A couple more things:
+- Are you looking to buy in the next 1-2 months, or just exploring?
+- Have you started a home loan pre-approval?
+Rohan: exploring for now, no loan yet
+Agent:
+No problem! I'll share a construction update video + price
+sheet now, and check back in with you in a couple of weeks.
+Want me to also block a free site-visit slot this weekend,
+no pressure to decide?
+Rohan: sure, saturday
+Agent:
+Done — Saturday 11am, our exec Priya will meet you onsite.
+I've added it to her calendar. See you then!
+Slide 8 — Problem 1: Sales team experience
+Funnel dashboard: every lead scored hot / warm / cold automatically
+Site-visit calendar fills itself — no manual dialing of hundreds of leads/day
+Sales exec gets a structured brief before every handoff: budget, urgency, objections, stage
+No lead silently goes cold from slow response time
+Slide 9 — Problem 1: Monetization + ROI
+Pricing: SaaS fee per active project / sales seat, scaled by lead volume (e.g., $200–500/mo/project) + outcome kicker tied to conversion uplift
+Sample math: project gets 1,000 leads/month at ₹1,000/lead spend = ₹10L/month ad spend. If response-time improvement lifts site-visit conversion from 3% → 5%, that's ~20 extra site visits/month for the same spend — a direct, quantifiable cost-per-sale reduction
+Pitch: "we reduce the leakage between what you already spend on leads and what you convert"
+Slide 10 — Problem 2: Post-sale ops & collections
+After booking, buyer enters an 18–36 month relationship: payments, status queries, handover, defects
+Currently handled by a thin CRM/accounts team via calls and email
+Directly affects cash flow (collections/DSO) and buyer satisfaction (referrals, repeat business)
+Natural bookend to Problem 1 — same buyer/unit data model, covers the full lifecycle
+Slide 11 — Problem 2: How the agent works (flow) + buyer experience
+┌─────────────────────┐
+│ Unit booked            │
+│ (agent takes over from │
+│ sales handoff)          │
+└──────────┬───────────┘
+           ▼
+┌─────────────────────────────┐
+│ Ongoing: construction-linked   │
+│ payment cycle (repeats per      │
+│ milestone, ~18-36 months)        │
+└──────────┬───────────────────┘
+           ▼
+     ┌─────┴──────┐
+     ▼             ▼
+┌───────────┐  ┌───────────────┐
+│ On-time    │  │ Overdue        │
+│ payment    │  │                │
+└─────┬─────┘  └───────┬───────┘
+      │                ▼
+      │        ┌───────────────────┐
+      │        │ Escalating reminder │
+      │        │ cadence → flag to    │
+      │        │ collections if        │
+      │        │ still unpaid           │
+      │        └───────────────────┘
+      ▼
+┌─────────────────────┐
+│ Buyer queries           │  (status, docs, loan paperwork)
+│ answered in real time    │
+└──────────┬───────────┘
+           ▼
+┌─────────────────────┐
+│ Possession stage         │
+└──────────┬───────────┘
+           ▼
+┌─────────────────────┐
+│ Snag/defect reported      │  buyer sends photo via WhatsApp
+└──────────┬───────────┘
+           ▼
+┌─────────────────────┐
+│ Agent logs, categorizes,   │
+│ routes to vendor, tracks    │
+│ SLA                          │
+└──────────┬───────────┘
+           ▼
+     ┌─────┴──────┐
+     ▼             ▼
+┌───────────┐  ┌───────────────┐
+│ Resolved   │  │ SLA breach /   │
+│ within SLA │  │ buyer escalates │
+└───────────┘  └───────┬───────┘
+                        ▼
+                ┌───────────────┐
+                │ Hand off to     │
+                │ human RM         │
+                └───────────────┘
+[8 months after booking, installment #4 due in 5 days]
+Agent (WhatsApp):
+Hi Rohan — your next installment (₹8.5L, slab: 10th floor slab)
+is due on 18th Oct. Pay here: [secure link]
+Need the demand letter PDF? Just say "letter."
+Rohan: whats the progress on tower b
+Agent:
+Tower B is at the 9th floor slab stage as of this week —
+right on schedule. Here's the latest site photo: [image]
+Shall I still send the payment link for the 18th?
+Rohan: yes send it
+--- 3 weeks later, buyer reports an issue ---
+Rohan: [sends photo] crack near the balcony door in my flat
+Agent:
+Thanks for flagging this — logged as Snag #4471, categorized
+as moderate (structural review needed). Our civil team will
+inspect within 3 business days and update you here.
+Tracking: you'll get a status ping at each stage.
+ 
+Slide 12 — Problem 2: Monetization + ROI
+Pricing: per-unit-under-management fee (e.g., $5–15/unit/month through possession + defect-liability period), or a small % fee on overdue amounts actually collected
+Sample math: a 400-unit project with 10% of installments running late each cycle — faster reminders + one-tap payment links recovering even half of that late-pay gap shortens DSO meaningfully, which is a direct, financeable cash-flow improvement
+Pitch: "we get you paid faster and cut your support ticket load, for a fee smaller than one collections hire"
+Slide 13 — Why these two together
+Bookend the full customer lifecycle: acquisition (Problem 1) → retention/ops (Problem 2)
+Share one buyer/unit data model — natural two-product platform, not disconnected point solutions
+Both are text/voice/document workflows — buildable now with current agentic LLM + tool-use patterns, no vision/robotics dependency
+Both tie to a number the developer already tracks — easy "before vs after" ROI pitch
+Slide 14 — Risks, open questions, AI tools used
+Risks: buyer trust in an AI agent for high-stakes financial/legal comms; data integration effort with developer's existing CRM/ERP; language/dialect coverage for voice
+What I'd validate next: actual response-time-to-conversion correlation with a pilot developer; collections recovery rate uplift over a real cohort
+AI tools used in prep: [state honestly which tools you used — e.g., Claude for structuring the case and drafting the mocks/diagrams] and how (ideation, drafting, not final judgment calls)
+That's the full deck ready to paste into slides. Want me to also draft the ROI slides (9 and 12) as an actual numbers table instead of prose, since that's often the strongest "show, don't tell" moment in front of a panel?
+ 
+give me
+ 
+6:11 PM
+Here are slides 9 and 12 as numbers tables.
+Slide 9 — Problem 1 ROI table (Lead response & qualification)
+Metric	Before agent	After agent	Impact
+Monthly leads (per project)	1,000	1,000	—
+Avg. cost per lead	₹1,000	₹1,000	—
+Monthly ad spend	₹10,00,000	₹10,00,000	same spend
+First response time	6–24 hrs	< 15 sec	—
+Lead → site visit conversion	3% (30 visits)	5% (50 visits)	+20 visits/mo
+Cost per site visit	₹33,333	₹20,000	–40%
+Site visit → sale conversion	10% (3 sales)	10% (5 sales)	+2 sales/mo
+Agent cost	—	~₹30,000/mo (flat fee)	<3% of ad spend
+Net effect	 	 	2 extra sales/month at no extra ad spend, agent pays for itself many times over on one incremental sale
+(Numbers are illustrative placeholders — swap in the panel's real figures if asked, but keep the shape: same spend, better conversion, agent cost is a rounding error next to one sale.)
+Slide 12 — Problem 2 ROI table (Post-sale ops & collections)
+Metric	Before agent	After agent	Impact
+Units under management	400	400	—
+Installments overdue per cycle	10% (40 units)	5% (20 units)	–20 units overdue
+Avg. overdue installment value	₹8,00,000	₹8,00,000	—
+Cash delayed per cycle	₹3.2 Cr	₹1.6 Cr	₹1.6 Cr recovered faster
+Avg. DSO (days sales outstanding)	45 days	30 days	–15 days
+Support tickets/month (CRM team)	600	150	–75% ticket load
+Agent cost	—	₹5–15/unit/mo → ₹2,000–6,000/mo for 400 units	negligible vs. cash unlocked
+Net effect	 	 	₹1.6 Cr in installments collected faster per cycle, plus a 75% drop in manual support volume, for a few thousand rupees a month
+(Same note — placeholders to show the shape of the argument; replace with real collections data if the panel pushes on it.)
+Both tables follow the same pattern deliberately: same or lower cost, measurably better outcome, agent fee is trivial next to the value unlocked — that's the line a panel will probe, so be ready to defend the assumptions (conversion lift %, DSO improvement %) as "stated and reasoned," per the brief's own ground rules.
+ 
