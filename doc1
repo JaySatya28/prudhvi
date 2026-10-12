@@ -1,0 +1,33 @@
+What's being asked
+You're the founding PM at an AI-agents-for-homebuilders startup. Deliverable: pick one market, identify the top 2 problems a mid-size residential developer would pay an agent to solve, and for each show (1) why you picked it, (2) how the agent works, (3) the user experience, (4) how it makes money. 30 min talk + 30 min Q&A, low-fidelity is fine, state your assumptions.
+Market & assumptions
+Market: India, tier-1/tier-2 city residential developer — e.g., a builder doing 3–5 apartment projects/year, 200–500 units each, selling construction-linked-plan units directly to individual buyers (not purely through brokers).
+Why this market: long buyer journeys (18–36 months), broker + portal-driven lead gen, WhatsApp as the default comms channel, RERA-mandated paperwork, construction-linked payment schedules — lots of repetitive, document-heavy, high-volume work done by small teams. Good agent terrain.
+Assumption: developer already runs a basic CRM (LeadSquared/Salesforce-type) and an ERP/project-tracking system; agents plug into these rather than replacing them.
+Problem 1: Lead response & qualification (pre-sale)
+Why this one: Developers pay heavily per lead (₹500–2,000 via portals/ads) but sales teams respond in hours-to-days, so a huge share of paid leads go cold before a human ever calls. This is the single most measurable money leak in the business — cost-per-lead and conversion rate are numbers every sales head already tracks, so the ROI story writes itself.
+How the agent works:
+Fires within seconds of a lead landing (portal, ad, walk-in form) via WhatsApp/voice call.
+Answers FAQs (price, possession date, RERA number, floor plans), asks qualifying questions (budget, loan pre-approval, timeline, unit preference).
+Books and reschedules site visits directly into the sales rep's calendar.
+Nurtures cold/undecided leads over weeks with drip content (construction updates, price-escalation notices) instead of letting them die.
+Hands off to a human closer only once a lead is "hot," with a structured brief — agent knows its own ceiling (negotiation/closing stays human).
+Experience:
+Buyer: instant response any time of day, feels like a helpful assistant, not a 48-hour wait or a pushy cold call.
+Sales team: a scored, prioritized funnel dashboard and a calendar that fills itself — no manual dialing hundreds of leads a day.
+Monetization: SaaS fee per active project/sales seat, scaled by lead volume (e.g., $200–500/mo/project), plus an outcome kicker tied to conversion uplift or cost-per-sale reduction — easy to justify since it's compared directly against existing ad spend being wasted.
+Problem 2: Post-sale buyer operations & collections (after the sale)
+Why this one: Once a unit is sold, the buyer enters a 1.5–3 year relationship full of repetitive admin — payment reminders, status queries, handover, defect/snag reports — currently handled by a thin CRM/accounts team. It directly affects cash flow (collections) and referrals (buyer satisfaction), and it's a natural bookend to Problem 1: together they cover the entire customer lifecycle on one shared buyer/unit data model.
+How the agent works:
+Answers routine buyer questions instantly via WhatsApp ("when's my next installment?", "what's tower B's progress?") by pulling live data from the ERP.
+Proactively sends payment reminders and demand letters with a payment link, escalating tone on overdue accounts, flagging high-risk delinquents to the collections team.
+At possession, coordinates handover scheduling and triages snag reports — buyer sends a photo of a defect, agent logs/categorizes severity, routes to the right vendor, tracks SLA.
+Escalates disputes or major delays to a human relationship manager instead of trying to resolve them itself.
+Experience:
+Buyer: one WhatsApp thread for the whole ownership journey, proactively taken care of instead of chasing the builder.
+Developer's ops team: ticket volume collapses, installments get paid faster because reminders+payment links are automatic, defect logs are structured instead of scattered across calls/emails.
+Monetization: recurring per-unit-under-management fee (e.g., $5–15/unit/month through possession + defect-liability period), or a small % fee on overdue amounts actually collected via the agent — ties revenue directly to a cash-flow improvement the developer can measure (lower DSO).
+Why these two specifically (not construction monitoring, RERA filing, broker management, etc.)
+Both are high-volume, repetitive, text/voice/document workflows — squarely inside what current agentic LLM+tool-use patterns can do well, without needing vision/robotics or physical-world grounding.
+Both map to a number the developer already tracks (cost-per-lead/conversion; DSO/collections efficiency), so the pitch is a before/after on an existing metric, not a speculative new one.
+Together they bookend the full customer lifecycle on one buyer/unit data model — a natural two-product platform story rather than two disconnected point solutions.
